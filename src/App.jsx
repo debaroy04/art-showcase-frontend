@@ -11,7 +11,7 @@ import axios from 'axios';
 import './styles/global.css';
 
 // Set axios defaults
-axios.defaults.baseURL = 'http://localhost:5000';
+axios.defaults.baseURL = 'https://art-showcase-backend.vercel.app';
 
 function App() {
   return (
